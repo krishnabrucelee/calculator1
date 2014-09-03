@@ -14,8 +14,12 @@ public class Calculator1 {
 
     /**
      * @param args the command line arguments
+     * @return addition of a and b to c
      */
-    public int add(int a, int b) {
+    public int add() {
+        int a = 10;
+        int b = 20;
+        System.out.println("a=" +a);
         
        int c = a+b;
        System.out.println("c" +c);
