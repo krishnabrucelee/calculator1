@@ -16,12 +16,15 @@ public class Calculator1 {
      * @param args the command line arguments
      */
     public int add(int a, int b) {
-        return a+b;
-                
+        
+       int c = a+b;
+       System.out.println("c" +c);
+
                 
             
     //public static void main(String[] args) {
         // TODO code application logic here
+        return 0;
     }
     
 }
