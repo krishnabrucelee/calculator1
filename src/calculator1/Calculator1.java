@@ -30,5 +30,9 @@ public class Calculator1 {
         // TODO code application logic here
         return 0;
     }
-    
+
+    int add(int a, int b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
